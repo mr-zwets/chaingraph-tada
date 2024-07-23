@@ -1,0 +1,22 @@
+{
+  "name": "chaingraph-tada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsx index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx index.ts",
+    "test": "tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "gql.tada": "^1.8.2",
+    "graphql-request": "^7.1.0"
+  }
+}

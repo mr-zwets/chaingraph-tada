@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution":"Bundler",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "strict": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "plugins": [ 
+      { 
+        "name": "gql.tada/ts-plugin", 
+        "schema": "https://demo.chaingraph.cash/v1/graphql", 
+        "tadaOutputLocation": "./generated/graphql-env.d.ts"
+      } 
+    ] 
+  }
+}
