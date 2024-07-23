@@ -212,11 +212,3 @@ export type introspection = {
     'transaction_variance_order_by': { kind: 'INPUT_OBJECT'; name: 'transaction_variance_order_by'; isOneOf: false; inputFields: [{ name: 'internal_id'; type: { kind: 'ENUM'; name: 'order_by'; ofType: null; }; defaultValue: null }, { name: 'locktime'; type: { kind: 'ENUM'; name: 'order_by'; ofType: null; }; defaultValue: null }, { name: 'size_bytes'; type: { kind: 'ENUM'; name: 'order_by'; ofType: null; }; defaultValue: null }, { name: 'version'; type: { kind: 'ENUM'; name: 'order_by'; ofType: null; }; defaultValue: null }]; };
   };
 };
-
-import * as gqlTada from 'gql.tada';
-
-declare module 'gql.tada' {
-  interface setupSchema {
-    introspection: introspection
-  }
-}
